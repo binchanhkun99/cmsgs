@@ -107,27 +107,26 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-import CTA from "@/components/CTA.vue";
 import TableRow from "@/components/tables/TableRow.vue";
 
 const people = ref([
   {
     img: "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
-    name: "Hans Burger",
+    name: "Duy Vũ BCK",
     description: "10x Developer",
     amount: "863.45",
-    status: "Hoạt động"
+    status: "active"
   },
   {
     img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&facepad=3&fit=facearea&s=707b9c33066bf8808c934c8ab394dff6",
-    name: "Jolina Angelie",
+    name: "Thăng BoyHaiKa",
     description: "Unemployed",
     amount: "369.95",
     status: "pending"
   },
   {
     img: "https://images.unsplash.com/photo-1551069613-1904dbdcda11?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
-    name: "Sarah Curry",
+    name: "Hợp máy dập",
     description: "10x Developer",
     amount: "86.00",
     status: "declined"
@@ -144,7 +143,7 @@ const people = ref([
     name: "Wenzel Dashington",
     description: "Actor",
     amount: "863.45",
-    status: "Hoạt động"
+    status: "active"
   },
   {
     img: "https://images.unsplash.com/photo-1502720705749-871143f0e671?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=b8377ca9f985d80264279f277f3a67f5",

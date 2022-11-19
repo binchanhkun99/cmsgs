@@ -18,7 +18,7 @@
       $ {{ person.amount }}
     </td>
     <td class="px-4 py-3 text-xs">
-      <span v-if="person.status === 'Hoạt động'"
+      <span v-if="person.status === 'active'"
         class="px-2 py-1 font-semibold leading-tight text-green-500 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100">
         Hoạt động
       </span>
@@ -80,4 +80,5 @@ const { person } = defineProps({
     required: true
   }
 })
+console.log(person)
 </script>
